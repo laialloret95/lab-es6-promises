@@ -12,3 +12,9 @@ function addFood(step, id, callback) {
   });
 }
 /***** ^^^ DO NOT TOUCH *****/
+
+function addImg(src, id) { 
+	let img = document.createElement('img'); 
+    img.src = src; 
+	document.getElementById(id).appendChild(img);
+}
